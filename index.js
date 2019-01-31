@@ -13,6 +13,12 @@
       
       store.drivers.push(this);
     }
+    
+    trips() {
+      return store.trips.filter((trip) => {
+        return trip.driverId == this.id;
+      })
+    }
   }
   
 // A passenger has many trips, and has many drivers through trips.
