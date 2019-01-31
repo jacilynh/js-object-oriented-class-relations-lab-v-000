@@ -41,7 +41,7 @@
     }
     
     trips() {
-      return store.trips.filter((trip) => {
+      return store.trips.filter((trips) => {
         return trip.passengerId == this.id;
       })
     }
