@@ -46,9 +46,9 @@
       })
     }
     
-    passengers() {
-      return store.passengers.filter((passenger) => {
-        return passenger.passengerId == this.id;
+    drivers() {
+      return store.drivers.filter((driver) => {
+        return driver.driverId == this.id;
       })
     }
   }
