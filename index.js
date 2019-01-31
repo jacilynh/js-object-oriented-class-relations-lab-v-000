@@ -6,7 +6,7 @@
   
   class Driver {
     constructor(name) {
-      this.id = ++itemId;
+      this.id = ++driverId;
       this.name = name;
       
     }
