@@ -12,7 +12,7 @@
       this.id = ++driverId;
       this.name = name;
       
-      store.
+      store.drivers.push(this);
     }
   }
   
