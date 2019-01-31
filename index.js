@@ -3,7 +3,8 @@
 //   + `new Driver()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
 //   + `trips()` - returns all of the trips that a driver has taken
 //   + `passengers()` - returns all of the passengers that a driver has taken on a trip
-  let store = 
+  let store = { drivers: [], passengers: []};
+  
   let driverId = 0;
   
   class Driver {
