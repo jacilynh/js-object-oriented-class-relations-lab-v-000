@@ -21,8 +21,8 @@
     }
     
     passengers() {
-      return store.passengers.filter((passengers) => {
-        return passenger.driverId == this.id;
+      return this.trips().map((trip) => {
+        return trip.passenger();
       })
     }
   }
