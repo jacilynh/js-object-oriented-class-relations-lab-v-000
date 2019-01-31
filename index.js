@@ -47,6 +47,9 @@
         this.passengerId = passenger.id;
       }
     }
+    setDriver(driver) {
+      this.driverId = driver.id;
+    }
   }
   
   
