@@ -22,12 +22,12 @@
 //   + `drivers()` - returns all of the drivers that has taken a passenger on a trip
 // let passengerId = 0;
 
-//   class Passenger() {
-//     constructor(name) {
-//       this.id = ++passengerId;
-//       this.name = name;
-//     }
-//   }
+  class Passenger() {
+    constructor(name) {
+      this.id = ++passengerId;
+      this.name = name;
+    }
+  }
 
 // `Trip` class:
 //   + A trip belongs to a driver and belongs to a passenger.
