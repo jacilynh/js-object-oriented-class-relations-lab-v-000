@@ -71,7 +71,9 @@
     driver() {
       return store.drivers.find((driver) => {return driver.id === this.driver.id});
     }
-    
+    passenger() {
+      return store.passengers.find((passenger) => {return passenger.id === this.passenger.id});
+    }
   }
   
   
