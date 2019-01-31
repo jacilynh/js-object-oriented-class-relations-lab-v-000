@@ -1,8 +1,7 @@
-// `Driver` class:
-//   + A driver has many trips, and has many passengers through trips.
-//   + `new Driver()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
-//   + `trips()` - returns all of the trips that a driver has taken
-//   + `passengers()` - returns all of the passengers that a driver has taken on a trip
+// A driver has many trips, and has many passengers through trips.
+// `trips()` - returns all of the trips that a driver has taken
+// `passengers()` - returns all of the passengers that a driver has taken on a trip
+
   let store = { drivers: [], passengers: []};
   
   let driverId = 0;
