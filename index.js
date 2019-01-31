@@ -38,6 +38,7 @@
 
   class Trip {
     constructor(driverId, passengerId) {
+      this.id = ++tripId
       if (driver) {
         this.driverId = driver.id;
       }
