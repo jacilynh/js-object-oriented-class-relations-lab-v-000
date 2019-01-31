@@ -42,13 +42,13 @@
     
     trips() {
       return store.trips.filter((trips) => {
-        return trip.passengerId == this.id;
+        return trips.passengerId == this.id;
       })
     }
     
     drivers() {
-      return store.drivers.filter((driver) => {
-        return driver.driverId == this.id;
+      return this.trips().map((trip) => {
+        return trip.driver()
       })
     }
   }
