@@ -34,3 +34,13 @@
 //   + `new Trip()` - initialized with an instance of driver and an instance of passenger; returns a JavaScript that object has attributes `id`, `driverId`, and `passengerId`
 //   + `driver()` - returns the driver associated with the trip
 //   + `passenger()` - returns the passenger associated with the trip
+  let tripId = 0;
+
+  class Trip {
+    constructor(driver, passenger) {
+      this.id = ++tripId;
+      this.name = name;
+      
+      store.passengers.push(this);
+    }
+  }
