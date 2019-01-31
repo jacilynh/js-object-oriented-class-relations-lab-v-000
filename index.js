@@ -52,10 +52,7 @@
     setDriver(driver) {
       this.driverId = driver.id;
     }
-    driver() {
-      return store.drivers.find(
-        Function)
-    }
+
   }
   
   
