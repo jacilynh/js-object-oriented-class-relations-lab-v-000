@@ -48,6 +48,7 @@
       }
       store.trips.push(this);
     }
+    
     setDriver(driver) {
       this.driverId = driver.id;
     }
