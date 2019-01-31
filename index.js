@@ -2,7 +2,7 @@
 // `trips()` - returns all of the trips that a driver has taken
 // `passengers()` - returns all of the passengers that a driver has taken on a trip
 
-  let store = { drivers: [], passengers: []};
+  let store = { drivers: [], passengers: [], trips: []};
   
   let driverId = 0;
   
