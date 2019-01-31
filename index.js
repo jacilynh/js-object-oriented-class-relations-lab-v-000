@@ -22,7 +22,7 @@
     
     passengers() {
       return store.passengers.filter((passenger) => {
-        return trip.driverId == this.id;
+        return passenger.driverId == this.id;
       })
     }
   }
