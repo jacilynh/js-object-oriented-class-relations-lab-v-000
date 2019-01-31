@@ -39,6 +39,18 @@
       
       store.passengers.push(this);
     }
+    
+    trips() {
+      return store.trips.filter((trip) => {
+        return trip.passengerId == this.id;
+      })
+    }
+    
+    passengers() {
+      return store.passengers.filter((passenger) => {
+        return passenger.passengerId == this.id;
+      })
+    }
   }
 
 // `Trip` class:
