@@ -56,13 +56,6 @@
       this.passengerId = passenger.id;
     }
     
-    user() {
-      return store.users.find(
-        function(user) {
-          return user.id === this.userId;
-        }.bind(this)
-      );
-    }
   }
   
   
