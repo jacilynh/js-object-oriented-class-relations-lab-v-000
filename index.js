@@ -18,14 +18,14 @@
 //   + `new Passenger()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
 //   + `trips()` - returns all of the trips that a passenger has taken
 //   + `drivers()` - returns all of the drivers that has taken a passenger on a trip
-let passengerId = 0;
+// let passengerId = 0;
 
-  class Passenger() {
-    constructor(name) {
-      this.id = ++passengerId;
-      this.name = name;
-    }
-  }
+//   class Passenger() {
+//     constructor(name) {
+//       this.id = ++passengerId;
+//       this.name = name;
+//     }
+//   }
 
 // `Trip` class:
 //   + A trip belongs to a driver and belongs to a passenger.
