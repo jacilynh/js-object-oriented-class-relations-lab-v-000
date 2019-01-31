@@ -20,7 +20,7 @@
 // `drivers()` - returns all of the drivers that has taken a passenger on a trip
   let passengerId = 0;
 
-  class Passenger() {
+  class Passenger {
     constructor(name) {
       this.id = ++passengerId;
       this.name = name;
