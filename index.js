@@ -26,7 +26,6 @@
       this.name = name;
       
       store.passengers.push(this);
-
     }
   }
 
